@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CE6206D929ADD4BB00A75149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6206D829ADD4BB00A75149 /* AppDelegate.swift */; };
 		CE6206DB29ADD4BB00A75149 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6206DA29ADD4BB00A75149 /* SceneDelegate.swift */; };
-		CE6206DD29ADD4BB00A75149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6206DC29ADD4BB00A75149 /* ViewController.swift */; };
 		CE6206E029ADD4BB00A75149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6206DE29ADD4BB00A75149 /* Main.storyboard */; };
 		CE6206E329ADD4BB00A75149 /* ColorsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6206E129ADD4BB00A75149 /* ColorsApp.xcdatamodeld */; };
 		CE6206E529ADD4BD00A75149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6206E429ADD4BD00A75149 /* Assets.xcassets */; };
@@ -17,6 +16,9 @@
 		CE6206F329ADD4BD00A75149 /* ColorsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6206F229ADD4BD00A75149 /* ColorsAppTests.swift */; };
 		CE6206FD29ADD4BD00A75149 /* ColorsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6206FC29ADD4BD00A75149 /* ColorsAppUITests.swift */; };
 		CE6206FF29ADD4BD00A75149 /* ColorsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6206FE29ADD4BD00A75149 /* ColorsAppUITestsLaunchTests.swift */; };
+		CE62070C29ADD6A100A75149 /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62070B29ADD6A100A75149 /* ColorsTableViewController.swift */; };
+		CE62071029ADD8E800A75149 /* ColorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62070F29ADD8E800A75149 /* ColorsDetailViewController.swift */; };
+		CE62071229ADEAED00A75149 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62071129ADEAEC00A75149 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		CE6206D529ADD4BB00A75149 /* ColorsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6206D829ADD4BB00A75149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6206DA29ADD4BB00A75149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE6206DC29ADD4BB00A75149 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE6206DF29ADD4BB00A75149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE6206E229ADD4BB00A75149 /* ColorsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorsApp.xcdatamodel; sourceTree = "<group>"; };
 		CE6206E429ADD4BD00A75149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		CE6206F829ADD4BD00A75149 /* ColorsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6206FC29ADD4BD00A75149 /* ColorsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsAppUITests.swift; sourceTree = "<group>"; };
 		CE6206FE29ADD4BD00A75149 /* ColorsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE62070B29ADD6A100A75149 /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
+		CE62070F29ADD8E800A75149 /* ColorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailViewController.swift; sourceTree = "<group>"; };
+		CE62071129ADEAEC00A75149 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,14 @@
 			children = (
 				CE6206D829ADD4BB00A75149 /* AppDelegate.swift */,
 				CE6206DA29ADD4BB00A75149 /* SceneDelegate.swift */,
-				CE6206DC29ADD4BB00A75149 /* ViewController.swift */,
 				CE6206DE29ADD4BB00A75149 /* Main.storyboard */,
 				CE6206E429ADD4BD00A75149 /* Assets.xcassets */,
 				CE6206E629ADD4BD00A75149 /* LaunchScreen.storyboard */,
 				CE6206E929ADD4BD00A75149 /* Info.plist */,
 				CE6206E129ADD4BB00A75149 /* ColorsApp.xcdatamodeld */,
+				CE62070B29ADD6A100A75149 /* ColorsTableViewController.swift */,
+				CE62070F29ADD8E800A75149 /* ColorsDetailViewController.swift */,
+				CE62071129ADEAEC00A75149 /* UIColorExtension.swift */,
 			);
 			path = ColorsApp;
 			sourceTree = "<group>";
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6206DD29ADD4BB00A75149 /* ViewController.swift in Sources */,
+				CE62071029ADD8E800A75149 /* ColorsDetailViewController.swift in Sources */,
 				CE6206E329ADD4BB00A75149 /* ColorsApp.xcdatamodeld in Sources */,
 				CE6206D929ADD4BB00A75149 /* AppDelegate.swift in Sources */,
 				CE6206DB29ADD4BB00A75149 /* SceneDelegate.swift in Sources */,
+				CE62070C29ADD6A100A75149 /* ColorsTableViewController.swift in Sources */,
+				CE62071229ADEAED00A75149 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
